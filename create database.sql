@@ -21,11 +21,10 @@ INSERT INTO `characteristic` (`name`, `rollable`) VALUES ('Força', TRUE);
 INSERT INTO `characteristic` (`name`, `rollable`) VALUES ('Destreza', TRUE);
 INSERT INTO `characteristic` (`name`, `rollable`) VALUES ('Inteligência', TRUE);
 INSERT INTO `characteristic` (`name`, `rollable`) VALUES ('Constituição', TRUE);
-INSERT INTO `characteristic` (`name`, `rollable`) VALUES ('Aparência', TRUE);
-INSERT INTO `characteristic` (`name`, `rollable`) VALUES ('Poder', TRUE);
-INSERT INTO `characteristic` (`name`, `rollable`) VALUES ('Tamanho', TRUE);
-INSERT INTO `characteristic` (`name`, `rollable`) VALUES ('Educação', TRUE);
-INSERT INTO `characteristic` (`name`, `rollable`) VALUES ('Movimento', FALSE);
+INSERT INTO `characteristic` (`name`, `rollable`) VALUES ('Carisma', TRUE);
+INSERT INTO `characteristic` (`name`, `rollable`) VALUES ('Sabedoria', TRUE);
+
+]
 
 CREATE TABLE `player_characteristic` (
     `player_characteristic_id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
